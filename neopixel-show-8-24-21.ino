@@ -39,20 +39,20 @@ Adafruit_NeoPixel strip(LED_COUNT, LED_PIN, NEO_GRB + NEO_KHZ800);
 //   NEO_RGBW    Pixels are wired for RGBW bitstream (NeoPixel RGBW products)
 
 uint32_t BLACK = strip.Color(0,0,0);
-uint32_t BLUE = strip.Color(0,0,225);
-uint32_t BROWN = strip.Color(175,130,100);
+uint32_t BLUE = strip.Color(0,0,255);
+uint32_t BROWN = strip.Color(255,80,40);
 uint32_t CYAN = strip.Color(0,255,255);
-uint32_t GREEN = strip.Color(30, 220,60);
-uint32_t GOLD = strip.Color(255,160,0);
-uint32_t LIGHTBLUE = strip.Color(135,206,250);
-uint32_t LIGHTGREEN = strip.Color(0,225,50);
-uint32_t LIGHTPURPLE = strip.Color(230,100,250);
+uint32_t GREEN = strip.Color(30, 255,60);
+uint32_t GOLD = strip.Color(255,180,0);
+uint32_t LIGHTBLUE = strip.Color(135,205,255);
+uint32_t LIGHTGREEN = strip.Color(50,255,100);
+uint32_t LIGHTPURPLE = strip.Color(230,100,255);
 uint32_t MAGENTA = strip.Color(255,0,255);
 uint32_t ORANGE = strip.Color(255,130,0);
 uint32_t PINK = strip.Color(255,50,150);
 uint32_t PURPLE = strip.Color(160,0,255);
 uint32_t RED = strip.Color(255,0,0);
-uint32_t SILVER = strip.Color(225,225,230);
+uint32_t SILVER = strip.Color(225,225,220);
 uint32_t WHITE = strip.Color(255,255,255);
 uint32_t YELLOW = strip.Color(255,255,0);
 
